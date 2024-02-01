@@ -18,7 +18,7 @@
   width: 175vw;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .animated-string2{
@@ -27,7 +27,7 @@
   width: 175vw;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .animated-string3{
@@ -36,7 +36,7 @@
   width: 175vw;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .animated-string4{
@@ -45,7 +45,7 @@
   width: 175vw;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .animated-string5{
@@ -54,12 +54,19 @@
   width: 175vw;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .marquee-1, .marquee-2, .marquee-3, 
 .marquee-4, .marquee-5 {
   pointer-events: none;
+}
+
+@media (min-width: 400px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 26px;}
 }
 
 @media (min-width: 500px) {

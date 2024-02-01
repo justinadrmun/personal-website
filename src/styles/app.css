@@ -47,6 +47,7 @@
   grid-area: footer-logo;
   display: grid;
   padding: 0 5%;
+  margin-bottom: 5%;
 }
 
 .margin-top {
@@ -81,6 +82,9 @@
 @media (min-width: 500px){
   .text-container {
     font-size: 3.3em;
+  }
+  .logo-panel {
+    margin-bottom: 0%;
   }
 }
 

@@ -50,7 +50,8 @@ function QontoStepIcon(props) {
 
   return (
     <div className='stepicon-container'>
-      <Typography variant="body1" color="#235977" className='stepicon-text' style={{fontWeight: 600}}>{date}</Typography>
+      <Typography variant="body1" color="#235977" className='stepicon-text' style={{fontWeight: 600, fontSize: '0.9rem'
+      }}>{date}</Typography>
       <QontoStepIconRoot ownerState={{ active }} className={className}>
         {<div className="QontoStepIcon-circle" />}
       </QontoStepIconRoot>
