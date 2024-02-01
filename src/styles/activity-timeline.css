@@ -60,11 +60,11 @@
   animation: pulse 13s infinite 1s;
 }
 
-.activity-link:hover {
+/* .activity-link:hover {
   background-color: #4bad6ac5 !important;
   padding: 0.25% 2.65% !important;
   font-weight: 600 !important;
-}
+} */
 
 .activity-link:focus {
   background-color: #235a77d9;
@@ -86,6 +86,14 @@
 @media (min-width: 430px) {
   .MuiTypography-root.activity-text {
     font-size: 2.75vw;
+  }
+}
+
+@media (min-width: 450px) {
+  .activity-link:hover {
+    background-color: #4bad6ac5 !important;
+    padding: 0.25% 2.65% !important;
+    font-weight: 600 !important;
   }
 }
 

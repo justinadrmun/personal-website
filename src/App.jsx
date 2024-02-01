@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Animation from './components/Animation'
 import LogoPanel from './components/LogoPanel'
 import ActivityTimeline from './components/ActivityTimeline'
@@ -6,6 +7,11 @@ import ActivityTimeline from './components/ActivityTimeline'
 import './styles/app.css';
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
         <div className="bg-neutral-100 outer-container">
               <div className="animation-container">
