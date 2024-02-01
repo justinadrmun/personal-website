@@ -28,12 +28,14 @@ const Animation = () => {
   useEffect(() => {
     let resizeTimer;
     const handleResize = () => {
-      setIsResizing(true);
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(() => {
-        setIsResizing(false);
-        setDurations(durations.map(() => getRandomDuration()));
-      }, 500);
+      if (window.innerWidth > 450) {
+        setIsResizing(true);
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+          setIsResizing(false);
+          setDurations(durations.map(() => getRandomDuration()));
+        }, 500);
+      }
     };
 
     window.addEventListener('resize', handleResize);
