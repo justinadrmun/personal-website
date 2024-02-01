@@ -88,7 +88,7 @@ const steps = [
     date: "Feb '24", 
     activity: [
       { text: 'Created this ', url: null },
-      { text: 'website', url: 'https://github.com/justinadrmun' }
+      { text: 'website', url: 'https://github.com/justinadrmun/personal-website' }
     ]
   },
 ];
