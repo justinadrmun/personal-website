@@ -1,0 +1,146 @@
+.relative {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "animated-string1"
+    "animated-string2"
+    "animated-string3"
+    "animated-string4"
+    "animated-string5";
+    height: 95%;
+    margin-bottom: 4%;
+}
+
+.animated-string1{
+  grid-area: 'animated-string1';
+  display: flex;
+  width: 175vw;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.animated-string2{
+  grid-area: 'animated-string2';
+  display: flex;
+  width: 175vw;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.animated-string3{
+  grid-area: 'animated-string3';
+  display: flex;
+  width: 175vw;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.animated-string4{
+  grid-area: 'animated-string4';
+  display: flex;
+  width: 175vw;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.animated-string5{
+  grid-area: 'animated-string5';
+  display: flex;
+  width: 175vw;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.marquee-1, .marquee-2, .marquee-3, 
+.marquee-4, .marquee-5 {
+  pointer-events: none;
+}
+
+@media (min-width: 500px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 32px;}
+}
+
+
+@media (min-width: 546px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    width: 120vw;}
+
+  .relative {
+    height: 75%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    align-self: end;
+  }
+}
+
+@media (min-height: 768px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 38px;
+  }
+}
+
+@media (min-height: 768px) and (min-width: 768px){
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 40px;
+  }
+}
+
+@media (min-height: 768px) and (min-width: 1024px){
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    width: 90vw;
+    font-size: 38px;
+  }
+}
+
+@media (min-height: 1024px){
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    font-size: 48px;
+  }
+
+  .relative {
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 1180px) {
+  .relative {
+    padding-left: 0%;
+  }
+}
+
+@media (min-height: 1366px) {
+  .animated-string1, .animated-string2, 
+  .animated-string3, .animated-string4, 
+  .animated-string5{
+    width: 120vw;
+    font-size: 58px;
+  }
+}

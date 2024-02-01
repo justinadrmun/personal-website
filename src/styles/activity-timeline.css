@@ -1,0 +1,154 @@
+.timeline-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stepicon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stepicon-text {
+  position: absolute;
+  top: -18px;
+  font-size: 2vw;
+}
+
+.MuiTypography-root.activity-text {
+  margin-top: -8px;
+  font-size: 3vw;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  9% {
+    transform: scale(1.1);
+    background-color: #4bad6ac5;
+    padding: 0.25% 2.65%; 
+  }
+
+  15% {
+    transform: scale(1);
+    background-color: #235a77d9;
+    padding: 0% 2.5%; 
+  }
+}
+
+.activity-link {
+  color: white;
+  opacity: 98%;
+  background-color: #235a77d9;
+  padding: 0% 2.5%; 
+  border-radius: 3px;
+}
+
+.activity-link-0-1 {
+  display: inline-block;
+  animation: pulse 13s infinite 7s;
+}
+
+.activity-link-1-1 {
+  display: inline-block;
+  animation: pulse 13s infinite 4s;
+}
+
+.activity-link-2-1 {
+  display: inline-block;
+  animation: pulse 13s infinite 1s;
+}
+
+.activity-link:hover {
+  background-color: #4bad6ac5 !important;
+  padding: 0.25% 2.65% !important;
+  font-weight: 600 !important;
+}
+
+.activity-link:focus {
+  background-color: #235a77d9;
+  padding: 0% 2.5%; 
+  font-weight: 500;
+}
+
+
+@media (max-width: 430px) {
+  .activity-link {
+    font-size: 2.25vw;
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: 430px) {
+  .MuiTypography-root.activity-text {
+    font-size: 2.75vw;
+  }
+}
+
+@media (max-width: 546px) {
+  .activity-link {
+    font-size: 2.5vw;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: 546px) {
+  .MuiTypography-root.activity-text {
+    font-size: 2.25vw;
+  }
+
+  .timeline-title {
+    text-align: left;
+    padding: 0 2%;
+  }
+}
+
+@media (min-width: 768px) {
+  .MuiTypography-root.activity-text {
+    font-size: 1.9vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .MuiTypography-root.activity-text {
+    font-size: 1.5vw;
+  }
+
+  .QontoStepIcon-circle {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+}
+
+@media (min-height: 1024px) {
+  .MuiTypography-root.activity-text {
+    font-size: 2.5vw;
+  }
+
+  .QontoStepIcon-circle {
+    width: 11px !important;
+    height: 11px !important;
+  }
+
+}
+
+@media (min-width: 1366px) {
+  .MuiTypography-root.activity-text {
+    font-size: 1.25vw;
+  }
+}
+
+@media (min-height: 1366px) {
+  .MuiTypography-root.activity-text {
+    font-size: 2.5vw;
+  }
+}

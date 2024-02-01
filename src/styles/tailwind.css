@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --font-family-light: 'Inter-Light', Helvetica;
+  --font-family-bold: 'Inter-Bold', Helvetica;
+  --font-family-regular: 'Inter-Regular', Helvetica;
+  --font-weight-light: 300;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-size-large: 140px;
+  --font-size-medium: 48px;
+  --font-size-small: 42px;
+}
+
+body {
+  overflow: hidden;
+}

@@ -1,0 +1,87 @@
+.logo-container {
+  display: grid;
+  grid-template-columns: 1fr 2.25fr;
+  grid-template-areas: 
+  "logo-link-container .";
+  align-self: center;
+}
+
+.logo-link-container {
+  grid-area: logo-link-container;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "logo-link-1 logo-link-2 logo-link-3 logo-link-4";
+  gap: 5%;
+  align-self: center;
+}
+
+.logo-link-1{
+  grid-area: logo-link-1;
+  padding: 0.4rem;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: 75%;
+}
+
+.logo-link-2{
+  grid-area: logo-link-2;
+  padding: 0.4rem;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: 75%;
+}
+
+.logo-link-3{
+  grid-area: logo-link-3;
+  padding: 0.4rem;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: 75%;
+}
+
+.logo-link-4{
+  grid-area: logo-link-4;
+  padding: 0.4rem;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: 75%;
+}
+
+.logo-link-1:hover, .logo-link-2:hover, 
+.logo-link-3:hover, .logo-link-4:hover{
+  background-color: #4bad6ade;
+  border-radius: 48%;
+  padding: 0.395rem;
+}
+
+.logo-svg-1, .logo-svg-2,
+.logo-svg-3{
+  height: 100%;
+  fill: currentColor;
+  margin: auto;
+}
+
+.logo-svg-4{
+  height: 75%;
+  fill: currentColor;
+  margin-top: 10%;
+}
+
+/* media queries */
+
+@media (min-width: 546px) {
+  .logo-link-1, .logo-link-2, .logo-link-3, .logo-link-4 {
+    width: 36px;
+    height: 36px;
+    padding: 0.5rem;
+  }
+}
