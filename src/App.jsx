@@ -1,19 +1,15 @@
-import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
-import Animation from './components/Animation'
-import LogoPanel from './components/LogoPanel'
-import ActivityTimeline from './components/ActivityTimeline'
+import React from 'react';
+import Animation from './components/Animation.jsx'
+import LogoPanel from './components/LogoPanel.jsx'
+import ActivityTimeline from './components/ActivityTimeline.jsx'
+import GoogleAnalytics from "./components/GoogleAnalytics.jsx";
 
 import './styles/app.css';
 
 function App() {
-
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
         <div className="bg-neutral-100 outer-container">
+              <GoogleAnalytics/>
               <div className="animation-container">
                 <Animation/>
               </div>
