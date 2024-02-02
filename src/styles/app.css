@@ -3,7 +3,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.9fr 1fr 0.5fr 0.1fr;
+  grid-template-rows: 0.7fr 1fr 0.5fr 0.1fr;
   grid-template-areas: 
     "header header header" 
     "body body body"
@@ -67,13 +67,9 @@
 
 /* media queries */
 @media (min-width: 390px){
-  .outer-container {
-    grid-template-rows: 0.7fr 1fr 0.5fr 0.1fr;
-  }
-
   .text-logo-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.2fr 0.05fr 0.1fr;
+    grid-template-rows: 0.7fr 0.2fr 0.05fr 0.1fr;
     grid-template-areas: 
       "."
       "header-text" 
