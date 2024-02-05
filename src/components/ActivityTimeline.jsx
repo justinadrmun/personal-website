@@ -74,7 +74,7 @@ const steps = [
     date: "Dec '23", 
     activity: [
       { text: 'Presented at\n', url: null },
-      { text: 'CUDAN conference', url: 'https://www.youtube.com/live/nP0dsi6wgPA?feature=shared&t=15710' }
+      { text: 'CUDAN conference', url: 'https://youtu.be/nP0dsi6wgPA?feature=shared&t=15710' }
     ]
   },
   { 
