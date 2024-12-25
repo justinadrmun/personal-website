@@ -4,11 +4,11 @@ import '../styles/animation.css';
 
 const Animation = () => {
   const textArrays = [
-    ['subject matter expert','data science','cloud automation','vue.js'],
+    ['subject matter expert','data science','cloud automation'],
     ['API development','data visualisation','data analytics'],
     ['machine learning','graph neural networks','researcher'],
-    ['R','microsoft azure','SQL', 'shinyapps'],
-    ['fintech','natural language processing','PowerBI']
+    ['R','microsoft azure','SQL', 'shinyapps','streamlit'],
+    ['python','fintech','natural language processing','PowerBI']
   ];
 
   // create random number between min and max
