@@ -71,24 +71,24 @@ QontoStepIcon.propTypes = {
 
 const steps = [
   { 
-    date: "Dec '23", 
+    date: "Jul '24", 
     activity: [
-      { text: 'Presented at\n', url: null },
-      { text: 'CUDAN conference', url: 'https://youtu.be/nP0dsi6wgPA?feature=shared&t=15710' }
+      { text: 'Started a new job at\n', url: null },
+      { text: 'Fresenius Medical Care', url: 'https://www.fmc-data-solutions.com/en/' }
     ]
   },
   { 
-    date: "Jan '24", 
+    date: "Oct '24", 
     activity: [
       { text: 'Submitted a ML-related\n', url: null },
-      { text: 'manuscript', url: 'http://dx.doi.org/10.2139/ssrn.4698441' }
+      { text: 'manuscript', url: 'https://dx.doi.org/10.2139/ssrn.5019966' }
     ]
   },
   { 
-    date: "Feb '24", 
+    date: "Dec '24", 
     activity: [
-      { text: 'Created this ', url: null },
-      { text: 'website', url: 'https://github.com/justinadrmun/personal-website' }
+      { text: 'Created this music-based', url: null },
+      { text: 'streamlit app', url: 'https://spotify-playlist-iceberg.streamlit.app/' }
     ]
   },
 ];
