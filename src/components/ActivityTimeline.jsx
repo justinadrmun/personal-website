@@ -88,7 +88,7 @@ const steps = [
     date: "Dec '24", 
     activity: [
       { text: 'Created this music-based\n', url: null },
-      { text: 'streamlit app', url: 'https://spotify-playlist-iceberg.streamlit.app/' }
+      { text: 'streamlit app', url: 'https://music-playlist-iceberg.streamlit.app/' }
     ]
   },
 ];
